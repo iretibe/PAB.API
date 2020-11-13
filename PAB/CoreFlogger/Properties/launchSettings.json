@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CoreFlogger": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "FLOG_CONNSTR": "Data Source=psl-swd5;Initial Catalog=IDPAdmin;user id=sa;password=persol123"
+      }
+    }
+  }
+}

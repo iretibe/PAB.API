@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <PublishWithAspNetCoreTargetManifest>false</PublishWithAspNetCoreTargetManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCoreRateLimit" Version="2.1.0" />
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
+    <PackageReference Include="IdentityServer4.AccessTokenValidation" Version="2.4.0" />
+    <PackageReference Include="Marvin.Cache.Headers" Version="1.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
+    <PackageReference Include="Mindscape.Raygun4Net.AspNetCore" Version="5.5.0" />
+    <PackageReference Include="NWebsec.AspNetCore.Middleware" Version="1.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="2.3.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="2.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreFlogger\CoreFlogger.csproj" />
+    <ProjectReference Include="..\PAB.Persol.IDP\PAB.Persol.IDP.csproj" />
+    <ProjectReference Include="..\PersonalAddressBook.Entity\PAB.Entity.csproj" />
+    <ProjectReference Include="..\PersonalAddressBook.Helper\PAB.Helper.csproj" />
+    <ProjectReference Include="..\PersonalAddressBook.Model\PAB.Model.csproj" />
+    <ProjectReference Include="..\PersonalAddressBook.RepositoryInterface\PAB.RepositoryInterface.csproj" />
+    <ProjectReference Include="..\PersonalAddressBook.Repository\PAB.Repository.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+    <UserSecretsId>0513c5f3-7691-4e5e-92c2-7bdc06074985</UserSecretsId>
+  </PropertyGroup>
+
+</Project>

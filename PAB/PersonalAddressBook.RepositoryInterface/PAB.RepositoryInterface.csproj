@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PersonalAddressBook.Entity\PAB.Entity.csproj" />
+    <ProjectReference Include="..\PersonalAddressBook.Helper\PAB.Helper.csproj" />
+  </ItemGroup>
+
+</Project>
